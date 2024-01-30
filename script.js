@@ -205,7 +205,7 @@ const lyrics = [
     Evermore (evermore)
     Evermore
     This pain wouldn't be for evermore (evermore)
-    Evermore`,
+    Evermore.`,
 ]
 
 const playlist = ["happiness", "cowboy like me", "evermore"];
