@@ -236,10 +236,10 @@ function backwardSong() {
     playingSongId -= 1;
   }
   song.src = "songs/" + playingSongId + ".mp3";
-  let uau = playingSongId - 1
-  songTitle.innerText = playlist[uau];
-  quote.innerText = quotes[uau];
-  lyric.innerText = lyrics[uau];
+  let pickIndex = playingSongId - 1
+  songTitle.innerText = playlist[pickIndex];
+  quote.innerText = quotes[pickIndex];
+  lyric.innerText = lyrics[pickIndex];
   playSong();
 }
 function forwardSong() {
@@ -249,10 +249,10 @@ function forwardSong() {
     playingSongId += 1;
   }
   song.src = "songs/" + playingSongId + ".mp3";
-  let uau = playingSongId - 1
-  songTitle.innerText = playlist[uau];
-  quote.innerText = quotes[uau];
-  lyric.innerText = lyrics[uau];
+  let pickIndex = playingSongId - 1
+  songTitle.innerText = playlist[pickIndex];
+  quote.innerText = quotes[pickIndex];
+  lyric.innerText = lyrics[pickIndex];
   playSong();
 }
 
